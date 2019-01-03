@@ -11,6 +11,7 @@ Robot asher = new Robot();
 		// 4. Make the robot move as fast as possible
 asher.setSpeed(100);
 		// 5. Set the pen width to 5
+asher.penDown();
 asher.setPenWidth(5);
 		// 6. Use a for loop to repeat steps #7 to #8, four times...
 for (int i = 0; i < 4; i++) {
